@@ -169,7 +169,7 @@ def get_geojson(result):
 
 
 def parse_args():
-    """ Use argparse to parse 3 positional optional arguments """
+    """ Use argparse to parse command line arguments """
     parser = argparse.ArgumentParser()
     parser.add_argument('sort_on', 
                 choices=['avgscore','highscore','inspections'],
